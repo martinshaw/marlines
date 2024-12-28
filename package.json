@@ -1,12 +1,12 @@
 {
-  "name": "marlines",
-  "version": "1.0.0",
+  "name": "@marlines/monorepo",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm build",
+    "storybook": "pnpm --filter=storybook storybook"
   },
   "keywords": [],
-  "author": "",
+  "author": "Martin Shaw <hello@martinshaw.co>",
   "license": "ISC"
 }
